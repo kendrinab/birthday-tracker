@@ -1,6 +1,4 @@
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config();
-}
+require('dotenv').config();
 require('./server/db/config/index');
 const express = require('express');
 const path = require('path');
